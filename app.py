@@ -25,7 +25,7 @@ def hello():
 
 @app.route('/index')
 def index():
-    return render_template('home.html')
+    return render_template('/templates/home.html')
 
 @socketio.on('my event', namespace='/test')
 def test_message(message):
