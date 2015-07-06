@@ -5,10 +5,10 @@ from TwitterStreamer import TwitterStreamer
 import threading
 
 class TwitterListener:
-    consumer_key="QEN0pRUDWBwz3eAnRGt4oA"
-    consumer_secret="uPKpmdkUyEtHHYTG81hxrDe2kPybRZq8zfAnAvdrA"
-    access_token="109282672-lsdLzFwO2ybQ8f00qZG51JTcel7zTghEBa00R24c"
-    access_token_secret="TE717i4SK6uuHUBmak8UXLaUijNH2uV1H5HbrCSnG5c"
+    consumer_key="yoPKCHwC71pgLyhoNnrgpeV7f"
+    consumer_secret="BSoRXjgfxEgHdFhseGFDcFqK69r9cjaxi6f3ATxrjH7HKzmfAR"
+    access_token="2192556798-WgcCDSQDb0CtenSOu7hBQKDKKwhvNZiSkoig0Q1"
+    access_token_secret="CNcdi0k1HKFQcamcCg57SF6fq0cbPgK4wRIlIX2Ue1VPq"
     
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
